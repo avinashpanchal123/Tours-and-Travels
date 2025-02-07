@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.nav_container{
+    height: 7vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav_container a{
+    /* padding: 1rem;
+    padding-top: 1rem; */
+}
+
+.nav_container ul{
+    display: flex;
+    list-style: none;
+    /* margin-right: 1rem; */
+}
+
+.nav_container ul li{
+    margin-right: 1rem;
+   
+    cursor: pointer;
+}
+
+#banner{
+    height: 70vh;
+    background-image: url("./beach_image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+    color: white;
+
+}
+
+#banner > div{
+    padding: 10% 20vh;
+}
